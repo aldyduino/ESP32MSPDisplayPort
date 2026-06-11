@@ -8,11 +8,11 @@ It reads real GPS telemetry from a serial GPS module and monitors battery voltag
 
 ## Demo
 
-![OSD Example](assets/osd.jpeg)
+<img src="assets/osd.jpeg" width="400" height="400" alt="OSD Example">
 
 **Arming Simulation (Enables full power on DJI O4):**
 
-<video src="assets/simulate-arming.mp4" controls="controls" width="100%" style="transform: rotate(-90deg);"></video>
+<video src="assets/simulate-arming.mp4" controls="controls" width="400" height="400" style="transform: rotate(-90deg);"></video>
 
 ## Features
 - **Real-time GPS Parsing:** Uses the `TinyGPS++` library to read latitude, longitude, speed, altitude, and satellite count via a hardware UART.
